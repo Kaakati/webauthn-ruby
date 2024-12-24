@@ -15,7 +15,7 @@ module WebAuthn
       }.freeze
 
       # Error message template for unsupported encoding types
-      INVALID_ENCODING_ERROR = "Unsupported or unknown encoding: %s".freeze
+      INVALID_ENCODING_ERROR = "Unsupported or unknown encoding: %s"
     end
   end
 
